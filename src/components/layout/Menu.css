@@ -1,0 +1,40 @@
+.Menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-preferred-size: 250px;
+      flex-basis: 250px;
+  background-color: dodgerblue;
+}
+
+.Menu nav {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.Menu ul {
+  list-style: none;
+}
+
+.Menu li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Menu li a {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-bottom: 10px;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.Menu li a:hover {
+  background: rgba(0, 0, 0, 0.322);
+}
+/*# sourceMappingURL=Menu.css.map */

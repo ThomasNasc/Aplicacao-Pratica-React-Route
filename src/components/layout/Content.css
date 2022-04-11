@@ -1,0 +1,11 @@
+.Content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  background-color: #ddd;
+  padding: 30px;
+}
+/*# sourceMappingURL=Content.css.map */
